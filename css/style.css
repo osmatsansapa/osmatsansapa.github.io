@@ -72,6 +72,13 @@ section h1 {
   font-size: 1.1rem;
   font-weight: 300;
 }
+#hero hr.hr-custom {
+  width: 60%;
+  height: 1px;
+  color: #fff;
+  margin: 0 auto;
+  opacity: 100%;
+}
 /* End Hero */
 
 /* About */
@@ -119,12 +126,8 @@ span {
   align-items: center;
   height: 340px;
   transition: all 0.2s ease-in-out;
+  cursor: pointer;
 }
-#project .card {
-  background-color: #5f5f5f;
-  color: #fff;
-}
-
 .jabatan-content {
   margin-top: 80px;
 }
@@ -162,6 +165,14 @@ a {
   color: rgb(26, 19, 19);
 }
 /* End daftar */
+/* Contact */
+#contact {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: var(--secondary-color);
+}
+/* End Contact */
+
 /* CTA */
 
 .social-icon a {
@@ -184,6 +195,7 @@ a {
   background: #0000;
   color: var(--acsent-color) !important;
 }
+
 #loading {
   position: fixed;
   top: 0;
